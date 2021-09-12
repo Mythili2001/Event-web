@@ -1,0 +1,112 @@
+body{ 
+   
+    
+
+
+
+    
+        background-color: black;
+        height:18cm;
+        
+        
+    
+    }
+    .cn{
+    width: 35%;
+    
+    }
+    .frm{
+        margin-left:17%
+    }
+    
+
+
+
+    .bn{
+    margin-left:30%;
+    margin-bottom: 3%;
+    }
+    ::placeholder {
+    color:black;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .evename
+    {
+    color:#f7542f;
+    font-weight: bold;
+    font-size:1cm;
+    font-family:sans-serif;
+    margin-top: 1cm;
+    }
+    
+    
+
+    @media only screen and (max-width:600px) {
+        .frm{
+            margin-left:1%
+        }
+    body {
+    padding: 0.5cm;
+    height:18cm;
+        border: solid 1em black;
+        border-left-color: #f7542f;
+        border-right-color: #f7542f;
+    border-top-style:none ;
+    border-bottom-style: none;
+        
+    
+    }
+    ::placeholder {
+    color:black;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .evename
+    {
+    color:#f7542f;
+    font-weight: bold;
+    font-size:0.8cm;
+    font-family:sans-serif;
+    margin-top: 0.8cm;
+    margin-left: 0.3cm;
+    }
+    .cn{
+    width: 75%;
+    }
+    .divs{
+    margin-left: 50%;
+    }
+    .bn{
+    position: relative;
+    left:1%;
+    
+    }
+    
+    
+    }
+    @media only screen and (max-width:347px) {
+     
+        .frm{
+            margin-left:2%
+        }
+        .evename
+    {
+    color:#f7542f;
+    font-weight: bold;
+    font-size:0.7cm;
+    font-family:sans-serif;
+    margin-top: 0.8cm;
+    margin-left: 0.5cm;
+    
+    }
+    .bn{
+        position: relative;
+        left:0.5%;
+    
+    }
+}
+
+    
+    

@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'YourFontName'; 
+    src: url('E:\clg prj\event description\font\League_Gothic.otf'); 
+}
+@font-face {
+    font-family: 'YourFontName2'; 
+    src: url('E:\clg prj\event description\font\Belleza-Regular.ttf'); 
+}
+nav {
+    padding: 30px;
+    text-align: center;
+    margin:0px;
+    top:0%;
+    position: absolute;
+    background: transparent;
+}
+  
+nav a {
+    color: #FF4500;
+    font-size: 25px;
+    font-family: 'YourFontName';
+    text-decoration: none;
+    margin: 0px;
+    
+}
+nav a:hover {
+   background-color: black; 
+}
+p{
+    text-align: center;
+}
+.down{
+    margin-top: 0px;
+    position: fixed;
+}
+
+.thumbnail {
+    position: relative;
+    display: inline-block;
+}
+.centered{
+    position: absolute;
+    top: 57%;
+    left: 48%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: #FF4500;
+}
+
+
+
+
+
+
+.events{
+    color: #f7542f;
+    text-align: center;
+    font-size:50px;
+    
+}
+
+.card-body{
+    background-color: rgba(32, 32, 32, 0.966);
+    font-size: 20px;
+    font-weight: 50px;
+    color:white;
+
+}
+.card-title{
+    color:#f7542f;
+
+}
+.lbox{
+    height: 55%;
+    width: 1.2%;
+    background-color: #f7542f;
+    left:0%;
+    top:12%;
+    position:absolute;
+}
+.rbox{
+    height: 55%;
+    width: 1.2%;
+    background-color: #f7542f;
+    right:0%;
+    top:12%;
+    position:absolute;
+}
+.l1box{
+    height: 80%;
+    width: 1.2%;
+    background-color: #f7542f;
+    left:0%;
+    top:175%;
+    position:absolute;
+}
+.r1box{
+    height: 80%;
+    width: 1.2%;
+    background-color: #f7542f;
+    right:0%;
+    top:175%;
+    position:absolute;
+}
+
+
+.card{
+   
+    box-shadow: 5px 5px 5px 5px rgba(247, 84, 47, 0.40);
+    width:22rem;
+    
+ 
+}
+.card:hover { 
+   
+        transform: scale(1.1); /* (150% zoom)*/
+}
+
+.imgs{
+    position:relative;
+    left:5%;
+}
+
+
+
+ 
