@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        .enth{
+            height:100%;
+            width:50%;
+            background-color:black;
+            position: absolute;
+            background: url("bggg.jpg");
+            display: none;
+        }
+        .loginbox{
+            opacity: 0.8;
+            height:470px;
+            width:23%;
+            margin-left:38%;
+            margin-top: 10%;
+            background-color:rgb(10, 10, 10);
+            position:relative;
+            border-radius: 25px;
+            border:3px solid #fff;
+            box-shadow:0 0 10px rgba(33,156,243,.5),
+                       0 0 20px rgba(33,156,243,.5),
+                       0 0 30px rgba(33,156,243,.5),
+                       0 0 30px rgba(33,156,243,.5);
+        }
+        input{
+            border: none;
+margin-top: 20px;
+height:30px;
+width:70%;
+position: relative;
+background: transparent;
+outline:none;
+color:white;
+border-bottom: 2px solid orangered;
+
+        }
+        .container{
+           background: url("image/bg4.jpeg");
+           background-repeat: no-repeat;
+           background-size: cover;
+            background-color: black;
+            height:100%;
+            width:100%;
+            position:absolute;
+            left:0%;
+        }
+        .inc{
+            top:20%;
+            position:relative;
+          margin-left:23%;
+          justify-content: center;
+        }
+       a:visited {
+         color:#f84b24 ;
+        }
+        a:hover {
+         color:white;
+        }
+        a:active {
+          color: white;
+        }
+        a{
+            text-decoration: none;
+            left: 5%;
+            position:relative;
+        }
+      p{
+            margin-left: 10%;
+       }
+        button{
+            margin-top: 30px;
+            left:17%;
+            position:relative;
+            height:35px;
+            width:100px;
+            border-radius: 10px;
+            background-color: #f84b24;
+            border:none;
+            color:white;
+            font-size: 17px;
+            display: block;
+        }
+        i{
+            top:15%;
+            left:37%;
+            position:relative;
+        }
+        img{
+            top:23%;
+            left:25%;
+            position: absolute;
+        }
+        @media only screen and (max-width: 700px) {
+            .enth{
+                display:none;
+            }
+            .container{
+                width:100%;
+                left:0%;
+                position: absolute;
+            }
+            .loginbox{
+                width:60%;
+            }
+            .i{
+                left:20%;
+                position: relative;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="enth">
+<img src="img/csea.jpeg" style="border-radius: 50%;">
+</div>
+<div class="container">
+    <div class="loginbox">
+        <i class="fa fa-user-circle" aria-hidden="true" style="font-size: 100px;color:#f86c4d"></i>
+        <div class="inc">
+            
+      <input type="text" placeholder="Name" ><br>
+      <input type="password" placeholder="Password" >
+      <button type="submit">Login</button>
+     <p ><a href="#">Forgot Password? </a></p>
+     
+    </div>
+    </div>
+</div>
+</body>
+</html>
